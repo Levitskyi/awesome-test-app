@@ -8,7 +8,7 @@ export default class AppHeader extends Component {
             <Container>
                 <Header>
                     <Left>
-                        <Button transparent>
+                        <Button onPress={this.props.open} transparent>
                             <Icon name='menu' />
                         </Button>
                     </Left>
